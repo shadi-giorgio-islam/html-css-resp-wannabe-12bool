@@ -30,7 +30,17 @@
 #lezioni {
   text-align: center;
 }
-
+@media screen and (min-width:768px) and (max-width:992px){
+  #lezioni .row{
+    background-color: #007251;
+    color: white;
+  }
+  #lezioni .row h3{
+    font-size: 30px;
+    margin: 10px 0;
+    color: yellow;
+  }
+}
 @media screen and (max-width:768px){
   #lezioni .row h3{
     font-size: 30px;
@@ -44,6 +54,13 @@
 
 #steps {
   text-align: center;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+  #steps .row{
+    background-color: yellow;
+    color: #007251;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -69,6 +86,14 @@
 #why .row .col-lg-12{
   margin-top: 80px;
 }
+
+@media screen and (min-width:768px) and (max-width:992px){
+  #why .row{
+    background-color: yellow;
+    color: #007251;
+  }
+}
+
 @media screen and (max-width:768px){
   #why .row span{
     display: none;
