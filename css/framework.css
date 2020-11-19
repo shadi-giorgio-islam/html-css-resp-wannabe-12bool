@@ -22,17 +22,6 @@
   float: left;
   height: 100%;
   text-align: center;
-  /* background-color: yellow;
-  border: 1px solid black; */
-}
-
-.row .row {
-  /* padding: 5px; */
-}
-
-.row .row [class*="col-"] {
-  /* background-color: red;
-  border: 2px solid white; */
 }
 
 /* framework colonne*/
